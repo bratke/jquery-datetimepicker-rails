@@ -1,6 +1,28 @@
 = jquery-datetimepicker-rails
 
-Description goes here.
+This gem packages the jQuery {DateTimePicker}[http://xdsoft.net/jqplugins/datetimepicker/] plugin for easy use with the Rails 3.1+ asset pipleine.
+
+== Important
+
+The current gem is released without updated plugins. If you encounter any errors, please fork the repository, update the plugin files and send a pull-request.
+
+== Installation
+
+1. Add to your Gemfile:
+
+        gem 'jquery-datetimepicker-rails', git: 'git://github.com/servtag/jquery-datetimepicker-rails.git'
+
+1. Install the gem:
+
+        bundle install
+
+1. Add the JavaScript to `application.js`:
+
+        //= require jquery.datetimepicker
+
+1. Add the stylesheets to `application.css`:
+
+        *= require jquery.datetimepicker
 
 == Contributing to jquery-datetimepicker-rails
  
@@ -14,6 +36,6 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2014 Ludwig Bratke. See LICENSE.txt for
+Copyright (c) 2014 Ströer Mobile Media GmbH. See LICENSE.txt for
 further details.
 
